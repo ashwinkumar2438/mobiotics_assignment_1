@@ -245,6 +245,14 @@ body{
     .product-container{
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .product-details:hover + .quantity-details{
+        width: 66%;
+        visibility: visible;
+    }
+    .quantity-details:hover{
+        width:66%;
+        visibility: visible;
+    }
 }
 
 @media screen and (max-width:900px){
@@ -260,7 +268,14 @@ body{
     .product-container{
         grid-template-columns: 1.5fr 1fr 1fr;
     }
-   
+    .product-details:hover + .quantity-details{
+        width: 57%;
+        visibility: visible;
+    }
+    .quantity-details:hover{
+        width:57%;
+        visibility: visible;
+    }
     .quantity-buttons button,.quantity-buttons div{
         width:70px;
         height:70px;
